@@ -61,5 +61,11 @@ public class MoreLists {
 
         var groceryArray = groceries.toArray(new String[groceries.size()]);
         System.out.println(Arrays.toString(groceryArray));
+
+        String[] originalArray = new String[] {"first","second","third"};
+        var originalList  = Arrays.asList(originalArray);
+        System.out.println(originalList);
+        System.out.println(Arrays.toString(originalArray));
+       
     }
 }
